@@ -32,6 +32,7 @@ PRODUCT_AAPT_CONFIG := normal mdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab \
     $(LOCAL_PATH)/init.m4.rc:root/init.m4.rc \
     $(LOCAL_PATH)/ueventd.m4.rc:root/ueventd.m4.rc \
     $(LOCAL_PATH)/fstab.m4:root/fstab.m4
